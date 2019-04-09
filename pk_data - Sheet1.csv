@@ -1,0 +1,98 @@
+Title,Author,link,Content
+Introduction to Blockchain technology,Achiv Chauhan,https://www.geeksforgeeks.org/introduction-to-blockchain/,"Graduate Record Examinations (GRE) is the prestigious competitive exam taken for admission in graduate schools across the United States. Preparing for GRE is therefore important. Following are the tips, which must be kept in mind while preparing for GRE-
+
+Choose the study material wisely: 
+It is important to carefully choose what you read. Good study material helps in strengthening the concepts. It is advised to follow any one GRE preparation book by some known publication house.
+
+
+Plan your study: 
+Prepare well for the big day. Make your own time tables and follow them on strict basis. Allot proper time to reading new words and take timely tests.
+
+
+
+Focus on Quant: 
+This is the area which will help in fetching marks. Quant section deals with simple maths problems, which help in increasing the overall score.
+
+
+Prepare for AWA: 
+Follow a format and practice the writing contents for AWA using that format. It will help to put the ideas and thoughts in a systematic manner. Include real-life examples in the content as much as possible.
+
+
+Prepare Mentally: 
+GRE is a time based test where specific time is alloted for each section. One minute break is alloted after each section is complete and a ten minute break is provided after the third section.
+
+
+Build Strong Vocabulary: 
+Break the GRE words into prefix, root and suffix. Remember the most frequently used of them and the different words which can be made using them.
+
+
+Target Universities: 
+Set the universities which you prefer to seek admission in. Be well aware of the scores they accept and aim at achieving that score.
+"
+"How Does the Blockchain Work?
+",Anubhav Ujjawal,https://www.geeksforgeeks.org/how-does-the-blockchain-work/,"A blockchain is nothing but a chain of blocks that holds some serious properties which are utilised to enable decentralisation over the internet. Decentralisation means nobody has full authority or control over the network but rather the authority is distributed to the users who use it, in the case of blockchain, to the miners, the users.
+
+Blockchain provides immutability (it’s theoretically possible to mutate the contents but its practically impossible most of the times because of the computational power required, unless there is a bug, which happened to ethereum once and it resulted in a hard fork, thus creating two versions of it, and thus two currencies, ethereum and ethereum classic).
+Blockchain provides Transparency and trust. Blockchain is shared, and hence it allows the system to be transparent and everybody can verify the data present in it.
+Blockchain is secure. The famous and reliable blockchains use cryptographic functions approved and used by cryptographic experts all over the world. However, this may change as quantum computing advances.
+Blockchain has high availability, since the system is based on thousands of peers in a p2p network.
+In the most basic way, we can think of a blockchain as a linked list. Each of the next item in list is dependent on the previous item, except for the first block, also known as the genesis block, which is hardcoded into the blockchain.
+
+So suppose we have a chain of 10 blocks, so the 10th block depends on the 9th block, the 9th block on the 8th block and so on. Thus in a way, the 10th block depends on all the previous blocks and genesis block as well. Thus, if someone tries to change data on the 2nd block, lets say, then he will have to change data on all the later blocks as well, otherwise the blockchain will become invalid since the later blocks depend on data present in the 2nd block and the 2nd block has changed, but not the later blocks. Thus, as the blocks are added, immutability increases as we will see later, changing the block is an expensive operation.
+
+Also, to add/change a block in a blockchain, people have to show some proof. To avoid enormous amount of block to be added to the blockchain, a concept of difficulty is introduced. To add a block, We have to compute the hash of the block. The hash holds certain properties which makes computing the hash time consuming. For ex, someone might keep the difficulty to have a no. of zeroes present in the start of the hash. Thus, by randomly changing the nonce(arbitrary data present so that the properties of the hash hold) we have to find the hash of the block which holds the properties.
+
+The difficulty is adjusted after a certain amount of time to maintain an average constant rate of mining blocks.
+
+Mining a block –
+Mining a block refers to adding of the block present in the blockchain network. A miner selects a set of transactions from the pool of transactions and then mines the block, or one can say, computes the hash to add the block to the network. If two or more miners mine the same block at the same time, the block with more difficulty is selected. The others are known as stale blocks. Mining usually rewards miners with blockchain currency."
+"Important Tips on How To Prepare for the GRE
+",Ria Raval,https://www.geeksforgeeks.org/important-tips-on-how-to-prepare-for-the-gre/,"Graduate Record Examinations (GRE) is the prestigious competitive exam taken for admission in graduate schools across the United States. Preparing for GRE is therefore important. Following are the tips, which must be kept in mind while preparing for GRE-
+
+Choose the study material wisely: 
+It is important to carefully choose what you read. Good study material helps in strengthening the concepts. It is advised to follow any one GRE preparation book by some known publication house.
+
+
+Plan your study: 
+Prepare well for the big day. Make your own time tables and follow them on strict basis. Allot proper time to reading new words and take timely tests.
+
+
+
+Focus on Quant: 
+This is the area which will help in fetching marks. Quant section deals with simple maths problems, which help in increasing the overall score.
+
+
+Prepare for AWA: 
+Follow a format and practice the writing contents for AWA using that format. It will help to put the ideas and thoughts in a systematic manner. Include real-life examples in the content as much as possible.
+
+
+Prepare Mentally: 
+GRE is a time based test where specific time is alloted for each section. One minute break is alloted after each section is complete and a ten minute break is provided after the third section.
+
+
+Build Strong Vocabulary: 
+Break the GRE words into prefix, root and suffix. Remember the most frequently used of them and the different words which can be made using them.
+
+
+Target Universities: 
+Set the universities which you prefer to seek admission in. Be well aware of the scores they accept and aim at achieving that score.
+"
+Blockchain vs Bitcoin,Shruti Babu,https://www.geeksforgeeks.org/blockchain-vs-bitcoin/,"Bitcoin
+Bitcoin is a crypto-currency (a kind of digital currency), mainly created to simplify a transaction without having third-party intermediaries. It all started when this mysterious man under the name of Satoshi Nakamoto (whose actual identity is still unknown) published a white-paper named Bitcoin: A Peer-to-Peer Electronic Cash System in 2009. A Satoshi is the smallest unit of Bitcoin. A unit of Satoshi is equal to 0.00000001 bitcoin!
+
+The most interesting part here is that these Bitcoins are not issued by any centralised banks or authorities. They are ‘mined’ by a group of people called as ‘miners’. They solve complex mathematical problems/puzzles and are issued a certain number of Bitcoins in exchange.
+
+Blockchain
+Blockchain is a data structure or ledger that stores information about any transactions that occurs(not just bitcoin). Anything that is stored once can’t be changed or modified. This feature of Blockchain makes it the most secure. It is decentralized and establishes a peer to peer network thus eliminating any middle-men.
+
+Blockchain is made up of blocks that are stored in a chronological order. Each block has a capacity of around 500 transactions on an average. Thanks to the cryptography involved, these blocks are extremely secure. Each block will a unique ‘hash’ value attached to it which is calculated based on the data stored in the block. Every-time a new block is added to the chain, the new block contains the hash of the previous block as well. So modifying the contents of any previous block is practically impossible(and would destroy the whole chain). This makes Block-chain immutable.
+
+Some Jargons involved-
+
+Blockchain is immutable: It means once data has been written to a blockchain no one, not even a system administrator, can change it. The blockchain can be changed in append only fashion. In other words, transactions can only be added to the blockchain. Modifications and deletions are not allowed.
+Blockchain is decentralized : It means that it doesn’t rely on a central point of control. Everything is spread over. Thos makes the system fair and secure.
+Smart Contracts : These are a set of protocols or more like a computer program that are stored in a blockchain and are executed when certain conditions are met.
+Consensus protocols : These are a set of protocols that keep all the nodes in the network synchronised with each other. It prevents any single entity from controlling the whole blockchain system. The aim of consensus protocols is to guarantee a single chain is used and followed.
+Hashing : It is process in which the data stored in a block is converted into a fixed length output through a mathematical algorithm (eg SHA-256 is used by Bitcoin). The value of hash is unique for the same data and it is impossible to produce the same hash using different pieces of data.
+Wallet : A Bitcoin wallet is like a physical wallet. It contains your private key which can be used by you to store/spend Bitcoins on the Blockchain.
+Private key : It is similar to the passwords we use to initiate a transaction. Likewise, using these private keys we can spend Bitcoins from our wallets using a cryptographic signature."
