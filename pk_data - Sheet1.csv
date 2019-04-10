@@ -32,7 +32,7 @@ Set the universities which you prefer to seek admission in. Be well aware of the
 "How Does the Blockchain Work?
 ",Anubhav Ujjawal,https://www.geeksforgeeks.org/how-does-the-blockchain-work/,"A blockchain is nothing but a chain of blocks that holds some serious properties which are utilised to enable decentralisation over the internet. Decentralisation means nobody has full authority or control over the network but rather the authority is distributed to the users who use it, in the case of blockchain, to the miners, the users.
 
-Blockchain provides immutability (it’s theoretically possible to mutate the contents but its practically impossible most of the times because of the computational power required, unless there is a bug, which happened to ethereum once and it resulted in a hard fork, thus creating two versions of it, and thus two currencies, ethereum and ethereum classic).
+Blockchain provides immutability (it?s theoretically possible to mutate the contents but its practically impossible most of the times because of the computational power required, unless there is a bug, which happened to ethereum once and it resulted in a hard fork, thus creating two versions of it, and thus two currencies, ethereum and ethereum classic).
 Blockchain provides Transparency and trust. Blockchain is shared, and hence it allows the system to be transparent and everybody can verify the data present in it.
 Blockchain is secure. The famous and reliable blockchains use cryptographic functions approved and used by cryptographic experts all over the world. However, this may change as quantum computing advances.
 Blockchain has high availability, since the system is based on thousands of peers in a p2p network.
@@ -44,7 +44,7 @@ Also, to add/change a block in a blockchain, people have to show some proof. To 
 
 The difficulty is adjusted after a certain amount of time to maintain an average constant rate of mining blocks.
 
-Mining a block –
+Mining a block ?
 Mining a block refers to adding of the block present in the blockchain network. A miner selects a set of transactions from the pool of transactions and then mines the block, or one can say, computes the hash to add the block to the network. If two or more miners mine the same block at the same time, the block with more difficulty is selected. The others are known as stale blocks. Mining usually rewards miners with blockchain currency."
 "Important Tips on How To Prepare for the GRE
 ",Ria Raval,https://www.geeksforgeeks.org/important-tips-on-how-to-prepare-for-the-gre/,"Graduate Record Examinations (GRE) is the prestigious competitive exam taken for admission in graduate schools across the United States. Preparing for GRE is therefore important. Following are the tips, which must be kept in mind while preparing for GRE-
@@ -80,19 +80,581 @@ Set the universities which you prefer to seek admission in. Be well aware of the
 Blockchain vs Bitcoin,Shruti Babu,https://www.geeksforgeeks.org/blockchain-vs-bitcoin/,"Bitcoin
 Bitcoin is a crypto-currency (a kind of digital currency), mainly created to simplify a transaction without having third-party intermediaries. It all started when this mysterious man under the name of Satoshi Nakamoto (whose actual identity is still unknown) published a white-paper named Bitcoin: A Peer-to-Peer Electronic Cash System in 2009. A Satoshi is the smallest unit of Bitcoin. A unit of Satoshi is equal to 0.00000001 bitcoin!
 
-The most interesting part here is that these Bitcoins are not issued by any centralised banks or authorities. They are ‘mined’ by a group of people called as ‘miners’. They solve complex mathematical problems/puzzles and are issued a certain number of Bitcoins in exchange.
+The most interesting part here is that these Bitcoins are not issued by any centralised banks or authorities. They are ?mined? by a group of people called as ?miners?. They solve complex mathematical problems/puzzles and are issued a certain number of Bitcoins in exchange.
 
 Blockchain
-Blockchain is a data structure or ledger that stores information about any transactions that occurs(not just bitcoin). Anything that is stored once can’t be changed or modified. This feature of Blockchain makes it the most secure. It is decentralized and establishes a peer to peer network thus eliminating any middle-men.
+Blockchain is a data structure or ledger that stores information about any transactions that occurs(not just bitcoin). Anything that is stored once can?t be changed or modified. This feature of Blockchain makes it the most secure. It is decentralized and establishes a peer to peer network thus eliminating any middle-men.
 
-Blockchain is made up of blocks that are stored in a chronological order. Each block has a capacity of around 500 transactions on an average. Thanks to the cryptography involved, these blocks are extremely secure. Each block will a unique ‘hash’ value attached to it which is calculated based on the data stored in the block. Every-time a new block is added to the chain, the new block contains the hash of the previous block as well. So modifying the contents of any previous block is practically impossible(and would destroy the whole chain). This makes Block-chain immutable.
+Blockchain is made up of blocks that are stored in a chronological order. Each block has a capacity of around 500 transactions on an average. Thanks to the cryptography involved, these blocks are extremely secure. Each block will a unique ?hash? value attached to it which is calculated based on the data stored in the block. Every-time a new block is added to the chain, the new block contains the hash of the previous block as well. So modifying the contents of any previous block is practically impossible(and would destroy the whole chain). This makes Block-chain immutable.
 
 Some Jargons involved-
 
 Blockchain is immutable: It means once data has been written to a blockchain no one, not even a system administrator, can change it. The blockchain can be changed in append only fashion. In other words, transactions can only be added to the blockchain. Modifications and deletions are not allowed.
-Blockchain is decentralized : It means that it doesn’t rely on a central point of control. Everything is spread over. Thos makes the system fair and secure.
+Blockchain is decentralized : It means that it doesn?t rely on a central point of control. Everything is spread over. Thos makes the system fair and secure.
 Smart Contracts : These are a set of protocols or more like a computer program that are stored in a blockchain and are executed when certain conditions are met.
 Consensus protocols : These are a set of protocols that keep all the nodes in the network synchronised with each other. It prevents any single entity from controlling the whole blockchain system. The aim of consensus protocols is to guarantee a single chain is used and followed.
 Hashing : It is process in which the data stored in a block is converted into a fixed length output through a mathematical algorithm (eg SHA-256 is used by Bitcoin). The value of hash is unique for the same data and it is impossible to produce the same hash using different pieces of data.
 Wallet : A Bitcoin wallet is like a physical wallet. It contains your private key which can be used by you to store/spend Bitcoins on the Blockchain.
 Private key : It is similar to the passwords we use to initiate a transaction. Likewise, using these private keys we can spend Bitcoins from our wallets using a cryptographic signature."
+Supply Chain Management (SCM),WILL KENTON,https://www.investopedia.com/terms/s/scm.asp,"What is Supply Chain Management (SCM)
+Supply chain management is the management of the flow of goods and services and includes all processes that transform raw materials into final products. It involves the active streamlining of a business's supply-side activities to maximize customer value and gain a competitive advantage in the marketplace. SCM represents an effort by suppliers to develop and implement supply chains that are as efficient and economical as possible. Supply chains cover everything from production to product development to the information systems needed to direct these undertakings.
+
+Explaining Supply Chain Management (SCM)
+BREAKING DOWN Supply Chain Management (SCM)
+Typically, SCM attempts to centrally control or link the production, shipment, and distribution of a product. By managing the supply chain, companies are able to cut excess costs and deliver products to the consumer faster. This is done by keeping tighter control of internal inventories, internal production, distribution, sales, and the inventories of company vendors. SCM is based on the idea that nearly every product that comes to market results from the efforts of various organizations that make up a supply chain. Although supply chains have existed for ages, most companies have only recently paid attention to them as a value-add to their operations.
+
+Supply Chain
+A supply chain is the connected network of individuals, organizations, resources, activities, and technologies involved in the manufacture and sale of a product or service. A supply chain starts with the delivery of raw materials from a supplier to a manufacturer and ends with the delivery of the finished product or service to the end consumer. SCM oversees each touch point of a company's product or service, from initial creation to the final sale. With so many places along the supply chain that can add value through efficiencies or lose value through increased expenses, proper SCM can increase revenues, decrease costs, and impact a company's bottom line.
+
+Example of SCM
+Understanding the importance of SCM to its business, Walgreens Boots Alliance Inc. placed focused effort on transforming its supply chain in 2016. The company operates one of the largest pharmacy chains in the United States and needs to efficiently manage and revise its supply chain so it stays ahead of the changing trends and continues to add value to its bottom line.
+
+As of July 5, 2016, Walgreens has invested in the technology portion of its supply chain. It implemented a forward-looking SCM that synthesizes relevant data and uses analytics to forecast customer purchase behavior, and then it works its way back up the supply chain to meet that expected demand. For example, the company can anticipate flu patterns, which allow it to accurately forecast needed inventory for over-the-counter flu remedies, creating an efficient supply chain with little waste. Using this SCM, the company can reduce excess inventory and all of the inventories' associated costs, such as the cost of warehousing and transportation."
+"The Importance of Supply Chain Management
+",John Smith,https://cscmp.org/CSCMP/Develop/Starting_Your_SCM_Career/Importance_of_SCM/CSCMP/Develop/Starting_Your_Career/Importance_of_Supply_Chain_Management.aspx?hkey=cf46c59c-d454-4bd5-8b06-4bf7a285fc65,"The Importance of Supply Chain Management
+It is well known that supply chain management is an integral part of most businesses and is essential to company success and customer satisfaction. 
+Boost Customer Service
+Customers expect the correct product assortment and quantity to be delivered.
+Customers expect products to be available at the right location. (i.e., customer satisfaction diminishes if an auto repair shop does not have the necessary parts in stock and can?t fix your car for an extra day or two).
+Right Delivery Time ? Customers expect products to be delivered on time (i.e., customer satisfaction diminishes if pizza delivery is two hours late or Christmas presents are delivered on December 26).
+Right After Sale Support ? Customers expect products to be serviced quickly. (i.e., customer satisfaction diminishes when a home furnace stops operating in the winter and repairs can?t be made for days)
+Reduce Operating Costs
+Decreases Purchasing Cost ? Retailers depend on supply chains to quickly deliver expensive products to avoid holding costly inventories in stores any longer than necessary. For example, electronics stores require fast delivery of 60? flat-panel plasma HDTV?s to avoid high inventory costs.
+Decreases Production Cost ? Manufacturers depend on supply chains to reliably deliver materials to assembly plants to avoid material shortages that would shutdown production. For example, an unexpected parts shipment delay that causes an auto assembly plant shutdown can cost $20,000 per minute and millions of dollars per day in lost wages.
+Decreases Total Supply Chain Cost ? Manufacturers and retailers depend on supply chain managers to design networks that meet customer service goals at the least total cost. Efficient supply chains enable a firm to be more competitive in the market place. For example, Dell?s revolutionary computer supply chain approach involved making each computer based on a specific customer order, then shipping the computer directly to the customer. As a result, Dell was able to avoid having large computer inventories sitting in warehouses and retail stores which saved millions of dollars. Also, Dell avoided carrying computer inventories that could become technologically obsolete as computer technology changed rapidly.
+Improve Financial Position
+Increases Profit Leverage ? Firms value supply chain managers because they help control and reduce supply chain costs. This can result in dramatic increases in firm profits. For instance, U.S. consumers eat 2.7 billion packages of cereal annually, so decreasing U.S. cereal supply chain costs just one cent per cereal box would result in $13 million dollars saved industry-wide as 13 billion boxes of cereal flowed through the improved supply chain over a five year period.
+Decreases Fixed Assets ? Firms value supply chain managers because they decrease the use of large fixed assets such as plants, warehouses and transportation vehicles in the supply chain. If supply chain experts can redesign the network to properly serve U.S. customers from six warehouses rather than ten, the firm will avoid building four very expensive buildings.
+Increases Cash Flow ? Firms value supply chain managers because they speed up product flows to customers. For example, if a firm can make and deliver a product to a customer in 10 days rather than 70 days, it can invoice the customer 60 days sooner.
+Lesser known, is how supply chain management also plays a critical role in society. SCM knowledge and capabilities can be used to support medical missions, conduct disaster relief operations, and handle other types of emergencies.
+
+Whether dealing with day-to-day product flows or dealing with an unexpected natural disaster, supply chain experts roll up their sleeves and get busy. They diagnose problems, creatively work around disruptions, and figure out how to move essential products to people in need as efficiently as possible.
+
+Societal Roles of SCM
+Ensure Human Survival
+SCM Helps Sustains Human Life ? Humans depend on supply chains to deliver basic necessities such as food and water. Any breakdown of these delivery pipelines quickly threatens human life. For example, in 2005, Hurricane Katrina flooded New Orleans, LA leaving the residents without a way to get food or clean water. As a result, a massive rescue of the inhabitants had to be made. During the first weekend of the rescue effort, 1.9 million meals and 6.7 million liters of water were delivered.
+
+SCM Improves Human Healthcare ? Humans depend on supply chains to deliver medicines and healthcare. During a medical emergency, supply chain performance can be the difference between life and death. For example, medical rescue helicopters can save lives by quickly transporting accident victims to hospitals for emergency medical treatment. In addition, the medicines and equipment necessary for treatment will be available at the hospital as a result of excellent supply chain execution
+
+SCM Protects Humans from Climate Extremes ? Humans depend on an energy supply chain to deliver electrical energy to homes and businesses for light, heat, refrigeration and air conditioning. Logistical failure (a power blackout) can quickly result in a threat to human life. For example, during a massive East Coast ice storm in January 1998, 80,000 miles of electrical power lines fell resulting in no electricity for 3,200,000 Montreal, Quebec residents. Due to extreme cold, 30 died and 25% of all Quebec residents left home to seek heated shelter. In addition, economic costs included $3 billion in lost business, $1 billion in home damage and $1 billion in government expenditures.
+Improve Quality of Life
+Foundation for Economic Growth ? Societies with a highly developed supply chain infrastructure (modern interstate highway system, vast railroad network, numerous modern ports and airports) are able to exchange many goods between businesses and consumers quickly and at low cost. As a result, the economy grows. In fact, the one thing that most poor nations have in common is no or a very poorly developed supply chain infrastructure.
+
+Improves Standard of Living ? Societies with a highly developed supply chain infrastructure (modern interstate highway system, vast railroad network, numerous modern ports and airports) are able to exchange many goods between businesses and consumers quickly and at low cost. As a result, consumers can afford to buy more products with their income thereby raising the standard of living in the society. For instance, it is estimated that supply chain costs make up 20% of a product?s cost in the U.S. but 40% of a product?s cost in China. If transport damage is added in, these costs make up 60% of a product?s cost in China. The high Chinese supply chain cost is a major impediment to improving the standard of living for Chinese citizens. Consequently, China has embarked on a massive effort to develop its infrastructure.
+
+Job Creation ? Supply chain professionals design and operate all of the supply chains in a society and manage transportation, warehousing, inventory management, packaging and logistics information. As a result, there are many jobs in the supply chain field. For example, in the U.S., logistics activities represent 9.9% of all dollars spent on goods and services in 2006. This translates into 10,000,000 U.S. logistics jobs.
+
+Opportunity to Decrease Pollution ? Supply chain activities require packaging and product transportation. As a by-product of these activities, some unwanted environmental pollutants such as cardboard waste and carbon dioxide fuel emissions are generated. For example, paper and paperboard accounted for 34% of U.S. landfill waste in 2005. Only 50% of the 84 million tons of paper and paperboard waste were recycled. Also, carbon dioxide emissions from transportation accounted for 33% of total U.S. CO2 emissions in 2005. As designers of the network, supply chain professionals are in a key position to develop more sustainable processes and methods.
+
+Opportunity to Decrease Energy Use ? Supply chain activities involve both human and product transportation. As a by-product of these activities, scarce energy is depleted. For example, currently transportation accounts for 30% of world energy use and 95% of global oil consumption. As designers of the network, supply chain professionals have the role of developing energy-efficient supply chains that use fewer resources.
+Protect Cultural Freedom and Development
+Defending Human Freedom ? Citizens of a country depend on military logistics to defend their way of life from those who seek to end it. Military logisticians strategically locate aircraft, ships, tanks, missiles and other weapons in positions that provide maximum security to soldiers and other citizens. Also, superior logistics performance yields military victory. For example, the B-2 Stealth Bomber is able to deliver bombs to target without being detected by enemy radar.
+
+Protects Delivery of Necessities ? Citizens of a country depend on supply chain managers to design and operate food, medicine and water supply chains that protect products from tampering. Sophisticated packaging techniques, state of the art surveillance cameras, global positioning systems and RFID inventory tracking are some of the methods used to deter terrorists from accessing these vital logistics systems."
+Top 10 Reasons Why You Should Learn Blockchain,Shashank,https://www.edureka.co/blog/top-10-reasons-to-learn-blockchain/,"Top 10 Reasons To Learn Blockchain
+Technology moves fast! If you are still cemented in your cube editing Java codes or just messing with PowerBuilder, you?re probably living in the past where there are only a few employers. Things have changed now. You need to take a step ahead and walk with the revolutionary technologies where Blockchain is one among the leaders. Learn Blockchain technology while it is still in its infancy.
+
+Care to know where Blockchain stands in the most sought-after technology of 2018. Find out in Edureka?s skill-report
+
+Are you searching for the best reasons to invest time to learn Blockchain with a view to becoming a user, investor or developer? Here are my 10 picks:
+
+High Paying Jobs
+Absolute Disruption in Chain
+Inflection Point of An Era
+Industries On Blockchain
+Integration With New Age Technology
+Data Security & Digital Identity
+Universal Infrastructure Facility
+Calculated Investment in Cryptocurrencies & ICO?s
+High Demand For Blockchain
+Cutting Edge Technology
+Top 10 Reasons to Learn Blockchain | Edureka
+
+ 
+
+
+Now, let me help you to understand these in more detail.
+
+10. Cutting Edge TechnologyCutting edge Technology-Top 10 reasons to learn Blockchain
+According to the census, it is found that only 0.5% of the world?s population are using blockchain today, but 50% or 3.77 billion people use the internet, so there is an opportunity to walk ahead of the world and learn Blockchain. All you have to do is: 
+
+Gather useful resources and exercise them efficiently
+Learn Blockchain related skills
+Study the working of the technology
+Apply your knowledge in building decentralized applications
+
+So, if you prefer to walk with the development of the world you can certainly try out new things like Blockchain.
+
+9. High Demand For Blockchain
+Blockchain trends-top 10 reasons to learn Blockchain-edurekaBlockchain is a booming sector, there are ample opportunities waiting for you in the market. If you think you have the right skill sets to work in Blockchain domain and wish to get adapted to this trending wave, then you will be able to swim in the sea of jobs and enjoy the power of this revolutionary platform.
+
+
+8. Calculated Investment In Cryptocurrencies & ICOsCryptocurrency Chart- 10 reasons to learn blockchain-edureka
+Blockchain is an underlying technology of cryptocurrencies, so by understanding the concepts of Blockchain, you will be able to make smarter investments and tradings. Also, knowing the technology will help you shortlist the best ICOs based on their concepts. 
+
+?If people are going to day trade cryptocurrencies, and they don?t know what they are doing, they?re going to get slaughtered,?  ~Dan Novaes, Co-founder & CEO of Current.
+
+
+Course Curriculum
+Blockchain Certification Training
+Instructor-led SessionsReal-life Case StudiesAssignmentsLifetime Access
+Believe and learn about the technology behind the cryptocurrencies before investing.
+
+7. Universal Infrastructure Facility
+Universal Infrastructure-top 10 reasons to learn blockchain-edureka
+
+Blockchain and Distributed Ledger Technology (DLT) essentially connect together to form a new type of market infrastructure that sits on top of ? and integrates into ? existing systems and processes.
+
+
+So, basically, it offers a single infrastructure and solution facility connected with the other type of market. This way you can integrate into the existing process and system.
+
+6. Data Security & Digital Identity
+Before I say anything about the data security just have a look at this data breach visualization. If you look at the current web infrastructure you would find how vulnerable we are right now. Which brings me to the original Web 1.0 concerns about commerce and identity online:
+
+Can my credit card number get stolen? Most definitely.
+
+Am I being tracked? 100%.
+
+Do they see my profile activity and password? Oh yes.
+
+Is it safe? Well, we thought so?Data Security-10 reasons to learn blockchain-edureka
+
+In the above image, you can see how blockchain infrastructure eliminates the need for any single entity to keep and store your sensitive data (including you). 
+
+
+Course Curriculum
+Blockchain Certification Training
+So, if Blockchain can solve all these problems then why not learn to use it?  
+
+5. Integration With New-Age Technology
+integrate with new age technology-10 reasons to learn blockchain-edureka
+                                          Blockchain of Things
+Blockchain technology aspires to change the world.
+
+There have been some unique concepts produced from a melding of blockchain with voting systems, commodities trading, and even real estate, but the candidate most likely to push mass adoption of blockchain is the Internet-of-Things (IoT).
+
+
+This ability to build a safe infrastructure for autonomous collaboration makes it easy to be creative without worrying about the veracity of their data.
+
+4. Industries On BlockchainIndustries on Blockchain-10 reasons to learn blockchain-edureka
+
+Blockchain is playing a dominant role in terms of technology in the market. Banking isn?t the only industry that could be affected by blockchain tech. Supermarkets, energy resources, healthcare, voting and many other sectors could also incorporate blockchain in their future. With this, you can begin with the shift process and ensure that transactions at the platform of Blockchain are maintained and ubiquity value is also driven.
+
+3. Inflection Point of an Era
+inflection point of an era-10 reasons to learn blockchain-edureka
+                                                                              Analytics by CBInsights
+I feel the world is on the brink of another ARPANET moment, perhaps even an inflection point, which will directly affect the way people do business. This moment is Blockchain. With Financial institutions acknowledging the disruptiveness of the Blockchain, predictions are that Blockchain will reach the critical mass around 2024. So, I would suggest that: ?It?s better to surf the wave before it?s too late?
+
+
+trend Trending Courses in this category
+Blockchain Certification Training
+5 (4950)
+13k Learners Enrolled Live Class
+Best Price
+17,995  19,995
+Similar Courses
+Ethereum Developer Certification Course
+2. Absolute Disruption in Chain
+
+Course Curriculum
+Blockchain Certification Training
+Weekday / Weekend Batches
+Blockchain improves the confidence and fidelity between the operating parties, it lessens the value chain, breaks down the workflow and thus paces up the inter-party processes. This will, in turn, led to refocusing of certain players in the value chain. There?s going to be a lot of job opportunities since players should be sizing up their future position and managers should be reassessing their value chains.
+
+1.High job prospects and good payHigh paying jobs-top 10 reasons to learn blockchain-edureka
+From crypto startups to established companies, the job market looks good for blockchain enthusiasts and it is expected to grow exponentially in the coming years. The employers have been searching for the following job roles:
+
+Senior software engineer, cryptocurrency
+Cryptocurrency Analyst
+Cryptocurrency Developer
+Cryptocurrency Trader
+Cryptocurrency Mining Technician
+Direct Sales Associate ? Cryptocurrency
+Systems Engineer (Trading Cryptocurrency)
+Cloud Engineer with Bitcoin protocol / Blockchain
+Bitcoin Full-Stack Developer
+Cryptocurrency Research Analyst (Internship)"
+Why MongoDB ? 10 Reasons to Learn MongoDB for 2019,DATAFLAIR TEAM ,https://data-flair.training/blogs/why-mongodb/,"1. Why MongoDB?
+As it is a NoSQL database, that?s why it has many reasons to learn MongoDB. These reasons have led the foundation to the worldwide popularity of MongoDB.
+
+These are some reasons, of why MongoDB is popular.
+
+Aggregation Framework
+BSON Format
+Sharding
+Ad-hoc Query
+Capped Collection
+Indexing
+File Storage
+Replication
+MongoDB Management Service (MMS)
+Do you know How to Install MongoDB?
+
+Why MongoDB should we learn
+Top Reasons to learn MongoDB
+
+i) Aggregation framework
+We can use it in a very efficient manner by MongoDB. MapReduce can be used for batch processing of data and also for aggregation operations. MapReduce is nothing but a process, in which large datasets will process and generate results with the help of parallel and distributed algorithms on clusters.
+
+It consists of two sets of operations in itself, they are: Map() and Reduce().
+
+Map(): It performs operations like filtering the data and then performing sorting on that dataset.
+Reduce(): It performs the operation of summarizing all the data after the map() operation.
+Aggregation Framework in MongoDB
+Aggregation Framework
+
+ii) BSON format
+It is JSON-like storage a format. BSON stands for Binary JSON. BSON is binary-encoded serialization of JSON like documents and MongoDB uses it, when to stores documents in collections. We can add data types like date and binary (JSON doesn?t support).
+
+BSON format makes use of _id as a primary key over here. As stated that _id is being used as a primary key so it is having a unique value associated with itself called as ObjectId, which is either generated by application driver or MongoDB service. Below is an example to understand BSON format in a more better way:
+
+Example-
+
+{
+""_id"": ObjectId(""12e6789f4b01d67d71da3211""),
+""title"": ""Key features Of MongoDB"",
+""comments"": [
+...
+]
+}
+Another advantage of using BSON format is that it enables to internally index and map document properties. As it is designed to be more efficient in size and speed, it increases the read/write throughput of MongoDB.
+
+iii. Sharding
+The major problem with any web/mobile application is scaling. To overcome this MongoDB has added sharding feature. It is a method in which, data is being distributed across multiple machines. Horizontal scalability is being provided with the sharding.
+
+It is a complicated process and is done with the help of several shards. Each shard holds some part of data and functions as a separate database. Merging all the shards together forms a single logical database. Operations over here are being performed by query routers.
+
+iv. Ad hoc queries
+MongoDB supports range query, regular expression and many more types of searches. Queries include user-defined Javascript functions and it can also return specific fields from the documents. MongoDB can support ad hoc queries by using a unique query language or by indexing BSON documents.
+
+Let?s see the difference between SQL SELECT query and resembling query:
+
+E.g. Fetching all records of student table with student name like ABC.
+
+SQL Statement ? SELECT * FROM Students WHERE stud_name LIKE ?%ABC%?;
+MongoDB Query ? db.Students.find({stud_name:/ABC/ });
+v. Schema-Less
+As it is a schema-less database(written in C++), it is much more flexible than the traditional database. Due to this, the data does not require much to set up for itself and reduced friction with OOP. If you want to save an object, then just serialize it to JSON and send it to MongoDB.
+
+vi. Capped Collections
+MongoDB supports capped collection, as it is having fixed size of collections in it. It maintains the insertion order. Once the limit is reached it starts behaving like a circular queue.
+
+Example ? Limiting our capped collection to 2MB
+
+db.createCollection(?logs?, {capped: true, size: 2097152})
+viii. Indexing
+To improve the performance of searches indexes are being created. We can index any field in MongoDB document either primary or secondary.
+
+Due to this reason, the database engine can efficiently resolve queries.
+
+MongoDB Indexing
+Indexing
+
+viii. File Storage
+MongoDB can also be used as a file storing system, which avoids load imbalance and also data replication. This function performed with the help of Grid File System, it is included in drivers which stores files.
+
+MongoDB File Storage
+File Storage in MongoDB
+
+ix. Replication
+Replication is being provided by distributing data across different machines. It can have one primary node and more than one secondary nodes in it (replica set). This set acts like a master-slave. Here, a master can perform read and write and a slave copies data from a master as a backup only for a read operation.
+
+Recommended Reading ? How Projection in MongoDB Affects performance
+
+MongoDB Replication
+Replication
+
+x. MongoDB Management Service (MMS)
+MongoDB has a very powerful feature of MMS, due to which we can track our databases or machines and if needed can backup our data. It also tracks hardware metrics for managing the deployment. It provides a feature of custom alert, due to which we can discover issues before our MongoDB instance will affect.
+
+MongoDB Management Service (MMS)
+MongoDB Management Service (MMS)
+
+2. Benefits of MongoDB
+This is the second phase of Why MongoDB, advantages.
+
+i. Load Balancing
+If you are having a large set of data that you need to process then you can distribute the traffic amongst different machines with the help of load balancing. It helps the user in a way that you can continue your work even if one of the nodes/machines has stopped working due to some reason. The other nodes will keep the work in a continuation and your processing will not stop.
+
+Load Balancing in MongoDB
+Load Balancing
+
+ii. Sharding
+With the help of sharding, we can do horizontal scaling. Which is not possible with the help of a relational database. By using this method, we can distribute data across different machines. We make shards of the data that we are having with ourselves and then we try to make the processing task a bit easy.
+
+Also, read ? MongoDB limit () and Skip() method
+
+
+Sharding in MongoDB
+
+iii. Flexibility
+It does not require data structures, that are unified in nature across all the objects that are being used. This makes it easier to use MongoDB. With the help of dynamic schema, it is very easy to use MongoDB.
+
+Flexibility in MongoDB
+Flexibility
+
+iv. Speed
+MongoDB can fast and easy process the data. But this is valid up to your data is in document format. We can say that it?s speed automatically increases as it is handling a large amount of unstructured data within seconds which feels like magic.
+
+Follow this link to know more about Pros and Cons of MongoDB
+
+MongoDB Benefits & Limitations
+MongoDB Advantages and Disadvantages
+
+4. Drawbacks/Limitations of MongoDB
+This is the third phase of Why MongoDB, limitations.
+
+i. Usage of Memory
+As we know that MongoDB stores the key name along with every document so it is obvious that it will consume a large amount of memory. And as joins are also not possible so it becomes very difficult to work with duplicate data.
+
+Usage of Memory in MongoDb
+Usage of Memory
+
+ii. No Joins
+As we apply joins very easily in the relational database very easily, it is not possible to apply joins in MongoDB. So if you want to apply joins in it, then you will have to write many complex queries to perform join operation over here.
+
+iii. Still Under Development
+SQL was developed in the 1980s, and MongoDB just emerged in 2009. So due to this reason, MongoDB is not yet fully documented or tested and does not have total support from the experts of it.
+
+Have a look ? 16 Different types of Data types in MongoDB
+
+5. Summary
+So, after reading it, you can get an idea that why should we use it, what are its advantages and disadvantages.Besides, if you have any query, feel free to ask in the comment section below, we would love to help you."
+"Advantages of MongoDB
+",study tonight,https://www.studytonight.com/mongodb/advantages-of-mongodb,"Advantages of MongoDB
+Having seen the good features of MongoDB, now every developer should be able to understand why it is better to use NoSQL based database for big data transactions and for implementing a scalable model. Now, its time to leave behind the schema definitions of RDBMS and get an advantage of using schema-less databases like MongoDB. Let us see some of the vital advantages of MongoDB :
+
+Advantages of MongoDB
+
+First and foremost, it is very easy to install and setup the MongoDB.
+The very basic feature of MongoDB is that it is a schema-less database. No schema migrations anymore. Since MongoDB is schema-free, your code defines your schema.
+The ability to derive a document-based data model is one of the most attractive advantages of MongoDB. Because, the way it stores the data in the form of BSON (Binary JSON), ruby hashes etc, helps to store the data in a very rich way while being capable of holding arrays and other documents.
+The document query language supported by MongoDB plays a vital role in supporting dynamic queries.
+Very easy to scale.
+Due to the structuring (BSON format - key value pair) way of the data in MongoDB, no complex joins are needed.
+Performance tuning is absolutely easy compared to any relational databases.
+No need of mapping the application objects to the data objects.
+Enables faster access of the data due to its nature of using the internal memory for the storage.
+Since, it is a NOSQL database, then it is obviously secure because no sql injection can be made.
+MongoDB can also be used as a file system, which helps in easier way of load balancing.
+MongoDB supports, the search by regex and fields as well.
+MongoDB can be run as windows service as well.
+Good amount of documentation is available.
+MongoDB does not require a VM to be run.
+MongoDB follows regular release cycle of its newer versions.
+The support for Sharding is one of its key feature. Sharding is the process of storing the data in different machines and MongoDB's ability to process the data, as and when the size of the data grows. This results in the horizontal scaling. With sharding, more amount of data can be written and read back as and when there is an increase in the data growth."
+"Introduction to BIG DATA: What is, Types, Characteristics & Example",Guru 99,https://www.guru99.com/what-is-big-data.html,"Introduction to BIG DATA: What is, Types, Characteristics & Example
+In order to understand 'Big Data', you first need to know
+
+What is Data?
+The quantities, characters, or symbols on which operations are performed by a computer, which may be stored and transmitted in the form of electrical signals and recorded on magnetic, optical, or mechanical recording media.
+
+What is Big Data?
+Big Data is also data but with a huge size. Big Data is a term used to describe a collection of data that is huge in size and yet growing exponentially with time. In short such data is so large and complex that none of the traditional data management tools are able to store it or process it efficiently.
+
+In this tutorial, you will learn,
+
+Examples Of Big Data
+Types Of Big Data
+Characteristics Of Big Data
+Advantages Of Big Data Processing
+ Introduction to BIG DATA: Types, Characteristics & Benefits
+
+Examples Of Big Data
+Following are some the examples of Big Data-
+
+The New York Stock Exchange generates about one terabyte of new trade data per day.
+
+ Introduction to BIG DATA: Types, Characteristics & Benefits
+
+Social Media
+
+The statistic shows that 500+terabytes of new data get ingested into the databases of social media site Facebook, every day. This data is mainly generated in terms of photo and video uploads, message exchanges, putting comments etc.
+
+ Introduction to BIG DATA: Types, Characteristics & Benefits
+
+A single Jet engine can generate 10+terabytes of data in 30 minutes of flight time. With many thousand flights per day, generation of data reaches up to many Petabytes.
+
+ Introduction to BIG DATA: Types, Characteristics & Benefits
+
+Types Of Big Data
+BigData' could be found in three forms:
+
+Structured
+Unstructured
+Semi-structured
+Structured
+Any data that can be stored, accessed and processed in the form of fixed format is termed as a 'structured' data. Over the period of time, talent in computer science has achieved greater success in developing techniques for working with such kind of data (where the format is well known in advance) and also deriving value out of it. However, nowadays, we are foreseeing issues when a size of such data grows to a huge extent, typical sizes are being in the rage of multiple zettabytes.
+
+Do you know? 1021 bytes equal to 1 zettabyte or one billion terabytes forms a zettabyte.
+
+Looking at these figures one can easily understand why the name Big Data is given and imagine the challenges involved in its storage and processing.
+
+Do you know? Data stored in a relational database management system is one example of a 'structured' data.
+
+Examples Of Structured Data
+
+An 'Employee' table in a database is an example of Structured Data
+
+Employee_ID 	Employee_Name 	Gender 	Department 	Salary_In_lacs
+2365 	Rajesh Kulkarni 	Male 	Finance	650000
+3398 	Pratibha Joshi 	Female 	Admin 	650000
+7465 	Shushil Roy 	Male 	Admin 	500000
+7500 	Shubhojit Das 	Male 	Finance 	500000
+7699 	Priya Sane 	Female 	Finance 	550000
+Unstructured
+Any data with unknown form or the structure is classified as unstructured data. In addition to the size being huge, un-structured data poses multiple challenges in terms of its processing for deriving value out of it. A typical example of unstructured data is a heterogeneous data source containing a combination of simple text files, images, videos etc. Now day organizations have wealth of data available with them but unfortunately, they don't know how to derive value out of it since this data is in its raw form or unstructured format.
+
+Examples Of Un-structured Data
+
+The output returned by 'Google Search'
+
+ Introduction to BIG DATA: Types, Characteristics & Benefits
+
+ Semi-structured
+Semi-structured data can contain both the forms of data. We can see semi-structured data as a structured in form but it is actually not defined with e.g. a table definition in relational DBMS. Example of semi-structured data is a data represented in an XML file.
+
+Examples Of Semi-structured Data
+
+Personal data stored in an XML file-
+
+<rec><name>Prashant Rao</name><sex>Male</sex><age>35</age></rec>
+<rec><name>Seema R.</name><sex>Female</sex><age>41</age></rec>
+<rec><name>Satish Mane</name><sex>Male</sex><age>29</age></rec>
+<rec><name>Subrato Roy</name><sex>Male</sex><age>26</age></rec>
+<rec><name>Jeremiah J.</name><sex>Male</sex><age>35</age></rec>
+Data Growth over the years
+
+Introduction to BIG DATA
+
+ Please note that web application data, which is unstructured, consists of log files, transaction history files etc. OLTP systems are built to work with structured data wherein data is stored in relations (tables).
+
+Characteristics Of Big Data
+(i) Volume ? The name Big Data itself is related to a size which is enormous. Size of data plays a very crucial role in determining value out of data. Also, whether a particular data can actually be considered as a Big Data or not, is dependent upon the volume of data. Hence, 'Volume' is one characteristic which needs to be considered while dealing with Big Data.
+
+(ii) Variety ? The next aspect of Big Data is its variety.
+
+Variety refers to heterogeneous sources and the nature of data, both structured and unstructured. During earlier days, spreadsheets and databases were the only sources of data considered by most of the applications. Nowadays, data in the form of emails, photos, videos, monitoring devices, PDFs, audio, etc. are also being considered in the analysis applications. This variety of unstructured data poses certain issues for storage, mining and analyzing data.
+
+(iii) Velocity ? The term 'velocity' refers to the speed of generation of data. How fast the data is generated and processed to meet the demands, determines real potential in the data.
+
+Big Data Velocity deals with the speed at which data flows in from sources like business processes, application logs, networks, and social media sites, sensors, Mobile devices, etc. The flow of data is massive and continuous.
+
+(iv) Variability ? This refers to the inconsistency which can be shown by the data at times, thus hampering the process of being able to handle and manage the data effectively.
+
+Benefits of Big Data Processing
+Ability to process Big Data brings in multiple benefits, such as-
+
+Businesses can utilize outside intelligence while taking decisions
+Access to social data from search engines and sites like facebook, twitter are enabling organizations to fine tune their business strategies.
+
+Improved customer service
+Traditional customer feedback systems are getting replaced by new systems designed with Big Data technologies. In these new systems, Big Data and natural language processing technologies are being used to read and evaluate consumer responses.
+
+Early identification of risk to the product/services, if any
+Better operational efficiency
+Big Data technologies can be used for creating a staging area or landing zone for new data before identifying what data should be moved to the data warehouse. In addition, such integration of Big Data technologies and data warehouse helps an organization to offload infrequently accessed data.
+
+Summary
+Big Data is defined as data that is huge in size. Bigdata is a term used to describe a collection of data that is huge in size and yet growing exponentially with time.
+Examples of Big Data generation includes stock exchanges, social media sites, jet engines, etc.
+Big Data could be 1) Structured, 2) Unstructured, 3) Semi-structured
+Volume, Variety, Velocity, and Variability are few Characteristics of Bigdata
+Improved customer service, better operational efficiency, Better Decision Making are few advantages of Bigdata
+ "
+20 Common Types of Viruses Affecting Your Computer, Erika Hernandez,https://www.voipshield.com/20-common-types-of-viruses-affecting-your-computer/,"20 Common Types of Viruses Affecting Your Computer
+ 15th May 2018  Erika Hernandez
+When we talk about computer security, the virus is the leading threat. It can destroy a single program or the whole computer system instead. The very first virus was created in the 1970s and was called the Creeper virus, affecting computers on the ARPANET. In 1981, the first hacker-made virus came into existence and spread through Apple floppy drives.
+
+According to Information-Technology Promotion Agency, the numbers of viruses ballooned to 52,151 in 2004. However, due to certain programs that completely eliminate viruses, their numbers decreased to about 14,000 in 2010.
+
+57% of the threats affecting your computer security is viruses. Other threats include Trojans, adware, worms, and malware, among others. Now, viruses are still widespread, affecting PC performance. Viruses are also tools of hackers to gain unauthorised access to your system and steal private information. It is important that you are aware of the different types of viruses that are affecting your computers.
+
+Resident Virus
+Resident viruses live in your RAM memory. It can interfere with normal system operation which can lead to the corruption of files and programs. The most popular examples of resident viruses are CMJ, Meve, MrKlunky, and Randex.
+
+Multipartite Virus
+This type of virus can easily spread in your computer system. It is very infectious, performing unauthorized actions in your operating system, in folders, and other programs on the computer. They have the ability to infect both the executable files and the boots sector.
+
+gg2 - 20 Common Types of Viruses Affecting Your Computer
+Direct Action Virus
+Direct action viruses attack certain types of files, typically .exe and .com files. The main purpose of this virus is to replicate and infect files in folders. On the lighter note, they do not typically delete files or affect PC performance and speed. It can be easily removed by antivirus programs.
+
+Browser Hijacker
+This type of virus infects your web browser in which it will bring you to different websites. Typically, if you key in a domain name in the internet address bar, the browser hijacker will open multiple fake websites that may harm your computer. On the other hand, most trusted browsers have built-in features to block them ahead.
+
+Overwrite Virus
+From the name itself, this virus overwrites the content of a file, losing the original content. It infects folders, files, and even programs. To delete this virus, you also need to get rid of your file. Thus, it is important to back up your data.
+
+Web Scripting Virus
+This virus lives in certain links, ads, image placement, videos, and layout of a website. These may carry malicious codes in which when you click, the viruses will be automatically downloaded or will direct you to malicious websites.
+
+Boot Sector Virus
+Boot sector viruses affect floppy disks. They came to existence when floppy disks are important in booting a computer. Although they are not very common today, it is still causing other computer units, especially the outdated ones. Some examples include Polyboot.B and AntiEXE.
+
+gg3 - 20 Common Types of Viruses Affecting Your Computer
+Macro Virus
+Macro viruses target applications and software that contain macros. These viruses can carry out series of operations affecting the performance of the program or software. Some examples of macro viruses are O97M/Y2K, Bablas, Melissa.A, and Relax.
+
+Directory Virus
+Directory viruses change file paths. When you run programs and software that are infected with directory viruses, the virus program also runs in the background. Further, it may be difficult for you to locate the original app or software once infected with directory viruses.
+
+Polymorphic Virus
+Polymorphic viruses use a special method of encoding or encryption every time they infect a system. With this, antivirus software finds it hard to locate then using signature searches. They are also capable of replicating easily. Polymorphic viruses include Satan Bug, Elkern, Tuareg, and Marburg.
+
+File Infector Virus
+This virus also infects executable files or programs. When you run these programs, the file infector virus is activated as well which can slow down the program and produce other damaging effects. A large block of existing viruses belongs to this category.
+
+Encrypted Virus
+This type of virus uses encrypted malicious codes which make antivirus software hard to detect them. They can only be detected when they decrypt themselves during replication. Although they don?t delete files or folders, they can badly affect PC performance.
+
+Companion Virus
+This is a type of virus that doesn?t survive without accompanying an existing file or folder. In order to carry out damages, the file or folder being accompanied by companion viruses should be opened or run. Some examples of companion viruses include Terrax.1069, Stator, and Asimov.1539.
+
+Network Virus
+Basically, this type of virus spreads out through Local Network Area (LAN) and through the internet. These viruses replicate through shared resources, including drives and folders. When network viruses enter a computer, they look for their potential prey. Dangerous network viruses include Nimda and SQLSlammer.
+
+gg1 - 20 Common Types of Viruses Affecting Your Computer
+Nonresident Virus
+Nonresident viruses replicate through modules. When the module is executed, it will select one or more files to infect.
+
+Stealth Virus
+Stealth viruses trick antivirus software by appearing like they are real files or programs and by intercepting its requests to the OS. Some antivirus software cannot detect them. Sometimes, it temporarily removes itself from the system without deletion.
+
+Sparse Infector
+Sparse infectors use different techniques to minimize its detection. They are viruses that infect ?occasionally?. For example, they may only want to infect a program every tenth execution. Because they are occasional infectors, antivirus software has a hard time detecting them.
+
+Spacefiller Virus
+Also known as ?cavity? viruses, spacefillers attach themselves to the file and can alter the start of the program or change the encrypted code. They also implement stealth techniques so that users cannot determine the increase the file code. The most popular Spacefiller is the Lehigh virus.
+
+FAT Virus
+Basically, this type of virus ruins file allocation system where the information about files, including the location, exist.
+
+Others
+Other threats are not technically called as ?virus?, but they also have the same damaging effects as viruses. This includes worms, adware, malware, Trojan, and ransomware.
+
+To prevent these viruses from affecting your computer, it is important that you install the best and the most competitive antivirus software that can detect, block, and eliminate all types of computer viruses."
+Explain software flaws with examples, Sayali Bagwe,http://www.ques10.com/p/13463/explain-software-flaws-with-examples-1/,"Explain software flaws with examples
+
+Programmers are not ?robots? but human beings who occasionally commit mistakes unintentionally. Some of these mistakes do cause any damage to the program e.g. spelling mistakes. However there are certain mistakes if went un-noticed can cause serious negative implications on the program. Three such common non-malicious programming errors are:
+Buffer Overflow:
+
+A buffer-overflow occurs when a memory reference which is beyond the declared boundary occurs. When an array/ string is declared, a finite memory is reserved for that variable. E.g. int arr[5] will reserve five memory slots.
+When a reference like ?arr[5]=22;? the subscript is out of bounds.
+Some compiler check for such errors while some don?t (e.g. C compiler).
+Now, for those which don?t check such errors, the question arises as to Where ?22? went since no ?Buffer Overflow? error happens.
+The answer to that lies as to what is adjacent to arr[4] (the last element of array). The number ?22? will be written in adjacent block of arr[4]. If that location contained any user? data- that data will be over-written.
+If at the same spot any program is located (system or user) , an attacker can create a fake overflow and place his own software at that location next to arr[4].
+In such manner, an attacker can gain privileges or full control of the OS.
+Incomplete Mediation:
+
+Often secret or private data gets exposed
+Consider a the following URL generated by a user?s browser to access a server: http://www.things.com/order/final&custID=101&part=555A&qy=10&price=10&ship=boat&shipcost=5&total=105
+Instead the user can edit the line as http://www.things.com/order/final&custID=101&part=555A&qy=10&price=1&ship=boat&shipcost=5&total=15
+A forged URL was used to access the server.
+Time-of-Check to Time-of-Use errors:
+
+Non-static Program data is bound to change as time passes.
+In OS/DBMS scenario, transaction values needs to synchronized. If they are not synced properly, improper values will enter the system.
+E.g. X=Rs 1000 ? A adds Rs 500 ; X=1000+500 ? B reads X=1000; B adds Rs.200 ? A writes 1500? B writes 1200 (Actual value should have been Rs.1700)
+A attacker can manipulate the bank accounts and move lost money to his personal account."
